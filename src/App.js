@@ -1,5 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './App.css';
+import { CssBaseline } from '@mui/material';
 
 const App = () => {
   return (
@@ -25,9 +26,9 @@ const App = () => {
 
 export default () => {
   return (
-    <ThemeProvider theme={theme}>
+    // <ThemeProvider theme={theme}>
       <CssBaseline enableColorScheme />
       <App />
-    </ThemeProvider>
+    // </ThemeProvider>
   );
 };
